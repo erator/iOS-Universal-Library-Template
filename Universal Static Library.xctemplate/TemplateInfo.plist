@@ -227,10 +227,10 @@ fi
 			<string>com.apple.product-type.library.static</string>
 			<key>SharedSettings</key>
 			<dict>
-				<key>ARCHS</key>
-				<string>armv6 $(ARCHS_STANDARD_32_BIT)</string>
-				<key>GCC_THUMB_SUPPORT</key>
-				<string>NO</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>Headers</string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string>Headers/Private</string>
 				<key>DSTROOT</key>
 				<string>/tmp/___PACKAGENAMEASIDENTIFIER___.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
