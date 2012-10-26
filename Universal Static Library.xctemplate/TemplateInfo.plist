@@ -150,7 +150,7 @@ fi
 #
 #################[ Tests: helps workaround any future bugs in Xcode ]########
 #
-DEBUG_THIS_SCRIPT=&quot;true&quot;
+DEBUG_THIS_SCRIPT=&quot;false&quot;
 
 if [ $DEBUG_THIS_SCRIPT = &quot;true&quot; ]
 then
